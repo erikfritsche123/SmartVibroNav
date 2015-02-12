@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent"
+    >
+    
+    <TableRow> 
+        <TextView 
+            android:text="Nummer:"
+            android:width ="120px"
+            />
+        <EditText 
+            android:id="@+id/txtNummer" 
+            android:width="200px" />
+    </TableRow> 
+    <TableRow>
+        <TextView 
+            android:text="Name:"
+            />
+        <EditText 
+            android:id="@+id/txtName" 
+            />
+    </TableRow>
+    <TableRow>
+        <TextView 
+            android:text="Alter:"
+            />
+        <EditText 
+            android:id="@+id/txtAlter" 
+            />
+    </TableRow>
+        <TableRow>
+        <TextView 
+            android:text="Route:"
+            />
+        <EditText 
+            android:id="@+id/txtRoute"  
+            />
+    </TableRow>
+        <TableRow>
+        <TextView 
+            android:text="Modus:"
+            />
+        <EditText 
+            android:id="@+id/txtModus"  
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button 
+            android:id="@+id/buttonStart" 
+            android:text="Start Navigation" />
+    </TableRow>
+</TableLayout>
